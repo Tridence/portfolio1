@@ -1,0 +1,26 @@
+.nav{
+    display: inline-block;
+    margin-right: 20px;
+    scroll-padding-block: 20px;
+    background-color: transparent;
+    padding: 10 px;
+    -webkit-transition-duration: 500ms;
+    -o-transition-duration: 500ms;
+    transition-duration: 500ms;
+} 
+.h1, .h11{
+font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+text-decoration-line: underline;
+text-align: center;
+text-shadow: 5px;
+}
+
+h3{
+    font-family: serif;
+    text-decoration: wavy;
+    font-size: 14px;
+}
+.date{
+text-indent: 300px;
+}
