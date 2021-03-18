@@ -5,6 +5,10 @@ html{
     background-size: 20px 20px;
 }
 
+body {
+    background-image: url('img_girl.jpg');
+  }
+
 header {
 	width: 100%;
 	height: 50px;
@@ -64,6 +68,7 @@ h3{
 }
 .date{
 text-indent: 300px;
+text-align: right;
 }
 
 .projects a:hover{
