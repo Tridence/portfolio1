@@ -86,7 +86,7 @@ text-align: center;
 }
 .column {
   height: auto;
-  border: 1px :solid rgb(32, 26, 26);
+  border: 1px solid rgb(32, 26, 26);
   border-radius: 4px;
   padding: 5px;
 }
