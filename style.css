@@ -84,6 +84,36 @@ background-color: rgb(37, 37, 37);
 color: white;
 text-align: center;
 }
-img {
+.column {
   height: auto;
+  border: 1px solid rgb(32, 26, 26)32, 26, 26);
+  border-radius: 4px;
+  padding: 5px;
 }
+
+.biodata{
+  text-align:center;
+}
+.cont{
+  font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 5px;
+  }
+  .column2{
+    height: auto;
+  }
+  .welcome{
+    width: 211px;
+    height: 1px;
+    padding-top: 10px;
+  }
+  .projects{
+    padding-bottom: 35px;
+    text-decoration:dashed ;
+  }
+  .work{
+	background:#797878;
+  width: max-content;
+  border-left: 0.1px;
+  }
