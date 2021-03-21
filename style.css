@@ -84,13 +84,6 @@ background-color: rgb(37, 37, 37);
 color: white;
 text-align: center;
 }
-.column {
-  height: auto;
-  border: 1px solid rgb(32, 26, 26);
-  border-radius: 4px;
-  padding: 5px;
-}
-
 .biodata{
   text-align:center;
 }
@@ -100,9 +93,7 @@ text-align: center;
   text-align: center;
   text-shadow: 5px;
   }
-  .column2{
-    height: auto;
-  }
+  
   .welcome{
     width: 211px;
     height: 1px;
@@ -125,4 +116,34 @@ text-align: center;
   div.container {
     text-align: center;
     padding: 10px 20px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    height: auto;
+    border: 1px solid rgb(32, 26, 26);
+    border-radius: 4px;
+    padding: 5px;
+    flex: 33.33%;
+    padding: 5px;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  img{
+    width: 100px;
+    height: 150px;
+  }
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
   }
