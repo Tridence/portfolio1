@@ -59,6 +59,7 @@ font-size: 20px;
 text-decoration-line: underline;
 text-align: center;
 text-shadow: 5px;
+padding-top: 10px;
 }
 
 h3{
@@ -71,18 +72,21 @@ text-indent: 300px;
 text-align: right;
 }
 
+
 .projects a:hover{
     color: rgb(0, 0, 0);
 }
 
 .footer{
-position: fixed;
+position:-webkit-sticky;
 left: 0;
 bottom: 0;
 width: 100%;
 background-color: rgb(37, 37, 37);
 color: white;
 text-align: center;
+padding: 5px;
+padding-top:20px;
 }
 .biodata{
   text-align:center;
@@ -204,7 +208,7 @@ input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */ 
   border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
+  border-radius: 45px; /* Rounded borders */
   box-sizing: border-box; /* Make sure that padding and width stays in place */
   margin-top: 6px; /* Add a top margin */
   margin-bottom: 16px; /* Bottom margin */
@@ -228,8 +232,20 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container2 {
-  border-radius: 5px;
+  border-radius: 40px;
   background-color: #f2f2f2;
-  padding: 20px;
-}
+  padding-top: 45px;
+  text-align: center;
 
+}
+hr.thin {
+  height: 1px;
+  color: #333;
+  background-color: #333;
+  width: 100%;
+  }
+  .column22{
+    width: auto;
+    height: 140px;
+    padding-bottom: 48px;
+  }
